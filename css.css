@@ -1,0 +1,387 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background-img{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.651),rgba(4, 9, 30, 0.589)),url(/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 150px;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+
+
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position:relative;
+    overflow: hidden;
+}
+span{
+    background:#f44336;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span {
+    width: 100%;
+}
+button:hover {
+    border: none;
+}
+
+/*--------------------our design section------*/
+.samples {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.text-center{
+    text-align: center;
+}
+p {
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+.card{
+    border:2px solid rgba(200, 157, 241, 0.733); 
+    box-shadow: 0 0 10px rgb(190, 134, 241);
+    width: 320px;
+    padding:12px;
+    margin: 5px;
+    margin-left: 50px;
+    border-radius: 16px;
+    transition: 0.5s;
+    
+}
+
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.card:hover{
+    box-shadow: 0 0 20px 0px rgb(0, 0, 0, 0.733);
+}
+
+.flex-container{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+        /*--------------------our user-------------  */
+      
+.review {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.model{
+    border: 5px solid blueviolet;
+    padding: 10px;
+    margin: 10px;
+    display: none;
+}
+.review-center{
+    border:2px solid  rgba(193, 252, 232, 0.623);
+
+    background-color: rgba(193, 252, 232, 0.534);
+    width: 400px;
+    height: 200px;;
+    padding:12px;
+    margin: 20px;
+    border-radius: 10px;
+    
+    
+}
+i{
+    color:gold;
+}
+
+.user{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.review-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}    
+
+                /*-----------------footer------------------*/
+            
+.footer  {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}         
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}     
+.icon .fa-brands{
+    color: black;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+.icon .fa-solid{
+    color: black;
+   
+}
+
+
+           /*   design   */
+.sub-header {
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.651),
+    rgba(4, 9, 30, 0.589)),url(/3.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+}   
+.design-font{
+    margin-top: 100px;
+} 
+.our-design {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    
+}
+h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+.text-center{
+    text-align: center;
+}
+p {
+    color:#777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}  
+.row{
+    border:2px solid rgba(200, 157, 241, 0.733); 
+    
+    width: 320px;
+    padding:12px;
+    margin: 5px;
+    margin-left: 50px;
+    border-radius: 16px;
+    
+    
+}
+
+.row-img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+.row-container{
+   margin-top: 5%;
+  
+   display: flex;
+   justify-content: space-between;
+}
+.our-blog{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.sub-contact {
+    height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.651),
+    rgba(4, 9, 30, 0.589)),url(/4.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+} 
+
+/*---------------------------location---------*/
+        
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}  
+.location iframe {
+    width: 100%;
+}
+.contact-us{
+    margin-left:450px;
+    margin-top: 10px;
+
+}
+
+/*--------------------log in---------*/
+.Sign-in {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.651),
+    rgba(4, 9, 30, 0.589)),url(/5.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+
+}
+.seperate {
+    margin-bottom: 30px;
+    
+}
+button{
+    margin-top: 500px;
+    
+}
+    .box{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        margin-top: 120px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    .text-box h1{
+        font-size: 62px;
+    }
+    .text-box p{
+        margin: 10px 0 40px;
+        font-size: 14px;
+        color: #fff;
+    }
+    button{
+        width: 200px;
+        padding: 15px 0;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: 2px solid #fff;
+        background: transparent;
+        color: #fff;
+        cursor: pointer;
+        position:relative;
+        overflow: hidden;
+    }
+    span {
+        background:#f44336;
+        height: 100%;
+        width: 0%;
+        border-radius: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: -1;
+        transition: 0.5s;
+    }
+    
+    button:hover span {
+        width: 100%;
+    }
+    button:hover {
+        border: none;
+    }
