@@ -197,8 +197,10 @@ i{
             
 .footer  {
     width: 100%;
+    
     text-align: center;
     padding: 30px 0;
+    transition: 0.3s;
 
 }         
 .footer h4 {
@@ -208,12 +210,37 @@ i{
 }     
 .icon .fa-brands{
     color: black;
-    margin: 0 13px;
+    margin: 10px 13px;
     cursor: pointer;
-    padding: 18px 0;
+    padding: 13px;
+    border-radius: 50%;
+    box-shadow: -5px 8px 46px 6px rgba(0,0,0,0.75);
+    box-shadow: 0 8px 12px 0 rgba(1, 2, 26, 0.37); 
+    backdrop-filter: blur( 4px );-webkit-backdrop-filter: blur( 4px );
+    transition: 300ms;
+
 }
-.icon .fa-solid{
-    color: black;
+#yt{
+    color:red;
+    
+    
+}
+#inst{
+    color: #FF0063;
+}
+#tw{
+    color: #3AB4F2;
+}
+#li{
+    color: blue;
+}
+
+
+
+
+#fa{
+    color:black;
+    
    
 }
 
